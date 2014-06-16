@@ -1,0 +1,181 @@
+F:\Vb.Net\HM System\HM System\bin\Debug\HM System.exe
+F:\Vb.Net\HM System\HM System\bin\Debug\HM System.pdb
+F:\Vb.Net\HM System\HM System\bin\Debug\HM System.xml
+F:\Vb.Net\HM System\HM System\obj\Debug\ResolveAssemblyReference.cache
+F:\Vb.Net\HM System\HM System\obj\Debug\HM_System.Form1.resources
+F:\Vb.Net\HM System\HM System\obj\Debug\HM_System.Resources.resources
+F:\Vb.Net\HM System\HM System\obj\Debug\HM System.vbproj.GenerateResource.Cache
+F:\Vb.Net\HM System\HM System\obj\Debug\HM System.exe
+F:\Vb.Net\HM System\HM System\obj\Debug\HM System.xml
+F:\Vb.Net\HM System\HM System\obj\Debug\HM System.pdb
+F:\Vb.Net\HM System\HM System\obj\Debug\HM_System.Reception.resources
+F:\Vb.Net\HM System\HM System\obj\Debug\HM_System.Bed_Allocation.resources
+F:\Vb.Net\HM System\HM System\obj\Debug\HM_System.Tests.resources
+F:\Vb.Net\HM System\HM System\obj\Debug\HM_System.Add_User_Form.resources
+F:\Vb.Net\HM System\HM System\obj\Debug\HM_System.Change_Password_Form.resources
+F:\Vb.Net\HM System\HM System\obj\Debug\HM_System.MDIParent1.resources
+F:\Vb.Net\HM System\HM System\obj\Debug\HM_System.Password_By_Supervisor.resources
+F:\Vb.Net\HM System\HM System\obj\Debug\HM_System.Form3.resources
+F:\Vb.Net\HM System\HM System\obj\Debug\HM_System.Doctor.resources
+F:\Vb.Net\HM System\HM System\obj\Debug\HM_System.Form2.resources
+F:\Vb.Net\HM System\HM System\obj\Debug\HM_System.Inventory.resources
+F:\Vb.Net\HM System\HM System\obj\Debug\HM_System.New_Admission.resources
+F:\Vb.Net\HM System\HM System\obj\Debug\HM_System.Form4.resources
+F:\Vb.Net\HM System\HM System\obj\Debug\HM_System.SplashScreen1.resources
+H:\HM System\HM System\obj\Debug\HM System.exe
+H:\HM System\HM System\obj\Debug\HM System.xml
+H:\HM System\HM System\obj\Debug\HM System.pdb
+H:\HM System\HM System\obj\Debug\ResolveAssemblyReference.cache
+H:\HM System\HM System\obj\Debug\HM_System.Add_User_Form.resources
+H:\HM System\HM System\obj\Debug\HM_System.Bed_Allocation.resources
+H:\HM System\HM System\obj\Debug\HM_System.Change_Password_Form.resources
+H:\HM System\HM System\obj\Debug\HM_System.MDIParent1.resources
+H:\HM System\HM System\obj\Debug\HM_System.Password_By_Supervisor.resources
+H:\HM System\HM System\obj\Debug\HM_System.SplashScreen1.resources
+H:\HM System\HM System\obj\Debug\HM_System.SplashScreen2.resources
+H:\HM System\HM System\obj\Debug\HM_System.Form3.resources
+H:\HM System\HM System\obj\Debug\HM_System.Doctor.resources
+H:\HM System\HM System\obj\Debug\HM_System.dept.resources
+H:\HM System\HM System\obj\Debug\HM_System.Inventory.resources
+H:\HM System\HM System\obj\Debug\HM_System.New_Admission.resources
+H:\HM System\HM System\obj\Debug\HM_System.Form4.resources
+H:\HM System\HM System\obj\Debug\HM_System.Reception.resources
+H:\HM System\HM System\obj\Debug\HM_System.Tests.resources
+H:\HM System\HM System\obj\Debug\HM_System.Form1.resources
+H:\HM System\HM System\obj\Debug\HM_System.Resources.resources
+H:\HM System\HM System\obj\Debug\HM System.vbproj.GenerateResource.Cache
+H:\HM System\HM System\bin\Debug\HM System.exe
+H:\HM System\HM System\bin\Debug\HM System.pdb
+H:\HM System\HM System\bin\Debug\HM System.xml
+H:\HM System\HM System\bin\Debug\HM System.exe.config
+C:\Users\shiv\Desktop\HM System\HM System\bin\Debug\HM System.exe.config
+C:\Users\shiv\Desktop\HM System\HM System\obj\Debug\HM System.exe
+C:\Users\shiv\Desktop\HM System\HM System\obj\Debug\HM System.xml
+C:\Users\shiv\Desktop\HM System\HM System\obj\Debug\HM System.pdb
+C:\Users\shiv\Desktop\HM System\HM System\bin\Debug\HM System.exe
+C:\Users\shiv\Desktop\HM System\HM System\bin\Debug\HM System.pdb
+C:\Users\shiv\Desktop\HM System\HM System\bin\Debug\HM System.xml
+C:\Users\shiv\Desktop\HM System\HM System\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\shiv\Desktop\HM System\HM System\obj\Debug\HM_System.Add_User_Form.resources
+C:\Users\shiv\Desktop\HM System\HM System\obj\Debug\HM_System.Bed_Allocation.resources
+C:\Users\shiv\Desktop\HM System\HM System\obj\Debug\HM_System.Change_Password_Form.resources
+C:\Users\shiv\Desktop\HM System\HM System\obj\Debug\HM_System.MDIParent1.resources
+C:\Users\shiv\Desktop\HM System\HM System\obj\Debug\HM_System.Password_By_Supervisor.resources
+C:\Users\shiv\Desktop\HM System\HM System\obj\Debug\HM_System.Form3.resources
+C:\Users\shiv\Desktop\HM System\HM System\obj\Debug\HM_System.Doctor.resources
+C:\Users\shiv\Desktop\HM System\HM System\obj\Debug\HM_System.dept.resources
+C:\Users\shiv\Desktop\HM System\HM System\obj\Debug\HM_System.Inventory.resources
+C:\Users\shiv\Desktop\HM System\HM System\obj\Debug\HM_System.Form4.resources
+C:\Users\shiv\Desktop\HM System\HM System\obj\Debug\HM_System.Reception.resources
+C:\Users\shiv\Desktop\HM System\HM System\obj\Debug\HM_System.Tests.resources
+C:\Users\shiv\Desktop\HM System\HM System\obj\Debug\HM_System.Resources.resources
+C:\Users\shiv\Desktop\HM System\HM System\obj\Debug\HM System.vbproj.GenerateResource.Cache
+C:\Users\shiv\Desktop\HM System\HM System\obj\Debug\HM_System.splash.resources
+C:\Users\shiv\Desktop\HM System\HM System\obj\Debug\HM_System.login.resources
+C:\Users\shiv\Desktop\HM System\HM System\obj\Debug\HM_System.Admission.resources
+C:\Users\shiv\Desktop\HM System\HM System\obj\Debug\HM_System.Emergency.resources
+C:\Users\shiv\Desktop\HM System\HM System\obj\Debug\HM_System.AboutBox1.resources
+C:\Users\shiv\Desktop\HM System\HM System\obj\Debug\HM_System.alert.resources
+C:\Users\shiv\Desktop\HM System\HM System\obj\Debug\HM_System.printform.resources
+H:\present backup\clg projects\HM System\HM System\bin\Debug\HM System.exe.config
+H:\present backup\clg projects\HM System\HM System\obj\Debug\HM System.exe
+H:\present backup\clg projects\HM System\HM System\obj\Debug\HM System.xml
+H:\present backup\clg projects\HM System\HM System\obj\Debug\HM System.pdb
+G:\HM System\bin\Debug\HM System.exe.config
+G:\HM System\obj\Debug\HM System.exe
+G:\HM System\obj\Debug\HM System.xml
+G:\HM System\obj\Debug\HM System.pdb
+G:\HM System\obj\Debug\ResolveAssemblyReference.cache
+G:\HM System\obj\Debug\HM_System.AboutBox1.resources
+G:\HM System\obj\Debug\HM_System.Add_User_Form.resources
+G:\HM System\obj\Debug\HM_System.Admission.resources
+G:\HM System\obj\Debug\HM_System.alert.resources
+G:\HM System\obj\Debug\HM_System.Bed_Allocation.resources
+G:\HM System\obj\Debug\HM_System.Change_Password_Form.resources
+G:\HM System\obj\Debug\HM_System.Emergency.resources
+G:\HM System\obj\Debug\HM_System.login.resources
+G:\HM System\obj\Debug\HM_System.MDIParent1.resources
+G:\HM System\obj\Debug\HM_System.Password_By_Supervisor.resources
+G:\HM System\obj\Debug\HM_System.printform.resources
+G:\HM System\obj\Debug\HM_System.splash.resources
+G:\HM System\obj\Debug\HM_System.Form3.resources
+G:\HM System\obj\Debug\HM_System.Doctor.resources
+G:\HM System\obj\Debug\HM_System.dept.resources
+G:\HM System\obj\Debug\HM_System.Inventory.resources
+G:\HM System\obj\Debug\HM_System.Form4.resources
+G:\HM System\obj\Debug\HM_System.Reception.resources
+G:\HM System\obj\Debug\HM_System.Tests.resources
+G:\HM System\obj\Debug\HM_System.Resources.resources
+G:\HM System\obj\Debug\HM System.vbproj.GenerateResource.Cache
+D:\HM System\bin\Debug\HM System.exe.config
+D:\HM System\obj\Debug\HM System.exe
+D:\HM System\obj\Debug\HM System.xml
+D:\HM System\obj\Debug\HM System.pdb
+D:\HM System\obj\Debug\ResolveAssemblyReference.cache
+D:\HM System\obj\Debug\HM_System.AboutBox1.resources
+D:\HM System\obj\Debug\HM_System.Add_User_Form.resources
+D:\HM System\obj\Debug\HM_System.alert.resources
+D:\HM System\obj\Debug\HM_System.Bed_Allocation.resources
+D:\HM System\obj\Debug\HM_System.Change_Password_Form.resources
+D:\HM System\obj\Debug\HM_System.Emergency.resources
+D:\HM System\obj\Debug\HM_System.login.resources
+D:\HM System\obj\Debug\HM_System.MDIParent1.resources
+D:\HM System\obj\Debug\HM_System.Password_By_Supervisor.resources
+D:\HM System\obj\Debug\HM_System.printform.resources
+D:\HM System\obj\Debug\HM_System.splash.resources
+D:\HM System\obj\Debug\HM_System.Form3.resources
+D:\HM System\obj\Debug\HM_System.Doctor.resources
+D:\HM System\obj\Debug\HM_System.dept.resources
+D:\HM System\obj\Debug\HM_System.Inventory.resources
+D:\HM System\obj\Debug\HM_System.Reception.resources
+D:\HM System\obj\Debug\HM_System.Tests.resources
+D:\HM System\obj\Debug\HM_System.Resources.resources
+D:\HM System\obj\Debug\HM System.vbproj.GenerateResource.Cache
+D:\HM System\bin\Debug\HM System.exe
+D:\HM System\bin\Debug\HM System.pdb
+D:\HM System\bin\Debug\HM System.xml
+D:\HM System\obj\Debug\HM_System.chatclient.resources
+D:\HM System\obj\Debug\HM_System.chatserver.resources
+D:\HM System\obj\Debug\HM_System.Patient_Invoice.resources
+D:\HM System\obj\Debug\HM_System.MDIParent2.resources
+D:\HM System\obj\Debug\HM_System.rptview.resources
+D:\HM System\obj\Debug\RdlCompile.cache
+D:\HM System\obj\Debug\RdlCompile.compiled
+D:\HM System\obj\Debug\HM_System.Admission.resources
+D:\HM System\obj\Debug\HM_System.consultancy.resources
+D:\HM System\obj\Debug\HM_System.OPD.resources
+D:\HM System\obj\Debug\HM_System.bloodrpt.resources
+D:\HM System\obj\Debug\HM_System.BLOODRPTVIEW.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\bin\Debug\HM System.exe.config
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM System.exe
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM System.xml
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM System.pdb
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM_System.AboutBox1.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM_System.Add_User_Form.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM_System.Admission.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM_System.alert.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM_System.Bed_Allocation.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM_System.Change_Password_Form.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM_System.chatclient.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM_System.chatserver.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM_System.consultancy.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM_System.Emergency.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM_System.login.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM_System.MDIParent1.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM_System.MDIParent2.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM_System.OPD.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM_System.Password_By_Supervisor.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM_System.Patient_Invoice.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM_System.printform.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM_System.splash.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM_System.Form3.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM_System.Doctor.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM_System.dept.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM_System.Inventory.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM_System.Reception.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM_System.Tests.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM_System.Resources.resources
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\obj\Debug\HM System.vbproj.GenerateResource.Cache
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\bin\Debug\HM System.exe
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\bin\Debug\HM System.pdb
+I:\CS-First-SEM-Courseware\UTD-Softwares\HM Systemforvs2013\bin\Debug\HM System.xml

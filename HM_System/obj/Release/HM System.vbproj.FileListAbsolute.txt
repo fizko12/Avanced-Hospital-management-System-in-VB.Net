@@ -1,0 +1,22 @@
+D:\HM System\obj\Release\ResolveAssemblyReference.cache
+D:\HM System\obj\Release\HM_System.AboutBox1.resources
+D:\HM System\obj\Release\HM_System.Add_User_Form.resources
+D:\HM System\obj\Release\HM_System.Admission.resources
+D:\HM System\obj\Release\HM_System.alert.resources
+D:\HM System\obj\Release\HM_System.Bed_Allocation.resources
+D:\HM System\obj\Release\HM_System.Change_Password_Form.resources
+D:\HM System\obj\Release\HM_System.Emergency.resources
+D:\HM System\obj\Release\HM_System.login.resources
+D:\HM System\obj\Release\HM_System.MDIParent1.resources
+D:\HM System\obj\Release\HM_System.Password_By_Supervisor.resources
+D:\HM System\obj\Release\HM_System.printform.resources
+D:\HM System\obj\Release\HM_System.splash.resources
+D:\HM System\obj\Release\HM_System.Form3.resources
+D:\HM System\obj\Release\HM_System.Doctor.resources
+D:\HM System\obj\Release\HM_System.dept.resources
+D:\HM System\obj\Release\HM_System.Inventory.resources
+D:\HM System\obj\Release\HM_System.Form4.resources
+D:\HM System\obj\Release\HM_System.Reception.resources
+D:\HM System\obj\Release\HM_System.Tests.resources
+D:\HM System\obj\Release\HM_System.Resources.resources
+D:\HM System\obj\Release\HM System.vbproj.GenerateResource.Cache

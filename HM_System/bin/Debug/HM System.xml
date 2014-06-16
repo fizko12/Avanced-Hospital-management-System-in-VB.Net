@@ -1,0 +1,956 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HMSystem
+</name>
+</assembly>
+<members>
+<member name="T:HM_System.hospitalDataSet2.admissionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet2.deptDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet2.loginifoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet2.admissionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet2.deptRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet2.loginifoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet2.admissionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.hospitalDataSet2.deptRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.hospitalDataSet2.loginifoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.hospitalDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet2TableAdapters.admissionTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet2TableAdapters.deptTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet2TableAdapters.loginifoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HM_System.hospitalDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(HM_System.hospitalDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HM_System.hospitalDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(HM_System.hospitalDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HM_System.hospitalDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(HM_System.hospitalDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HM_System.hospitalDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HM_System.hospitalDataSet2TableAdapters.TableAdapterManager.UpdateAll(HM_System.hospitalDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HM_System.hospitalDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HM_System.hospitalDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HM_System.HMDataSet.admissionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.bedallocationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.bloodDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.bloodsugarDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.deptcodedetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.deptcodedocidnameDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.deptcodenameDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.deptdetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.deptqualDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.docDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.docdetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.docid_deptcodeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.docidaddDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.docidageDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.docidfeeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.docidnameDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.docidphmobDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.docidqualDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.docqualnameDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.docrefDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.emergencyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.Existing_UserDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.fluidsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.inventoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.misDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.Password_by_SupervisorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.patientinvoiceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.pidadvDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.pidinvoiceambDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.pidnameDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.pidtestcostDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.searchdocDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.stoolDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.testsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.wdetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.wnonameDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.wnotbedsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.HM_ViewDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.adm_selDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.admissionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.bedallocationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.bloodRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.bloodsugarRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.deptcodedetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.deptcodedocidnameRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.deptcodenameRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.deptdetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.deptqualRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.docRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.docdetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.docid_deptcodeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.docidaddRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.docidageRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.docidfeeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.docidnameRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.docidphmobRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.docidqualRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.docqualnameRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.docrefRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.emergencyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.Existing_UserRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.fluidsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.inventoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.misRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.Password_by_SupervisorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.patientinvoiceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.pidadvRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.pidinvoiceambRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.pidnameRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.pidtestcostRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.searchdocRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.stoolRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.testsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.wdetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.wnonameRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.wnotbedsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.HM_ViewRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.adm_selRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.HMDataSet.admissionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.bedallocationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.bloodRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.bloodsugarRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.deptcodedetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.deptcodedocidnameRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.deptcodenameRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.deptdetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.deptqualRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.docRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.docdetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.docid_deptcodeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.docidaddRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.docidageRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.docidfeeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.docidnameRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.docidphmobRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.docidqualRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.docqualnameRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.docrefRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.emergencyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.Existing_UserRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.fluidsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.inventoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.misRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.Password_by_SupervisorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.patientinvoiceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.pidadvRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.pidinvoiceambRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.pidnameRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.pidtestcostRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.searchdocRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.stoolRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.testsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.wdetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.wnonameRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.wnotbedsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.HM_ViewRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet.adm_selRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.HMDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.admissionTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.bedallocationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.bloodTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.bloodsugarTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.deptcodedetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.deptcodedocidnameTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.deptcodenameTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.deptdetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.deptqualTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.docTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.docdetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.docid_deptcodeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.docidaddTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.docidageTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.docidfeeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.docidnameTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.docidphmobTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.docidqualTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.docqualnameTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.docrefTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.emergencyTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.Existing_UserTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.fluidsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.inventoryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.misTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.Password_by_SupervisorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.patientinvoiceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.pidadvTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.pidinvoiceambTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.pidnameTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.pidtestcostTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.searchdocTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.stoolTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.testsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.wdetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.wnonameTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.wnotbedsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.HM_ViewTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.adm_selTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HM_System.HMDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(HM_System.HMDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HM_System.HMDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(HM_System.HMDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HM_System.HMDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(HM_System.HMDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HM_System.HMDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HM_System.HMDataSetTableAdapters.TableAdapterManager.UpdateAll(HM_System.HMDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HM_System.HMDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:HM_System.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:HM_System.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:HM_System.My.Resources.Resources.PresPro_FS_PeopleIcon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:HM_System.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet1.admissionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet1.loginifoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet1.admissionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet1.loginifoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet1.admissionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.hospitalDataSet1.loginifoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.hospitalDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet1TableAdapters.admissionTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet1TableAdapters.loginifoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HM_System.hospitalDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(HM_System.hospitalDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HM_System.hospitalDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(HM_System.hospitalDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HM_System.hospitalDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(HM_System.hospitalDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HM_System.hospitalDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HM_System.hospitalDataSet1TableAdapters.TableAdapterManager.UpdateAll(HM_System.hospitalDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HM_System.hospitalDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HM_System.hospitalDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:HM_System.hospitalDataSet.admissionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet.bedlocDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet.doctorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet.inventoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet.logininfoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet.admissionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet.bedlocRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet.doctorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet.inventoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet.logininfoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HM_System.hospitalDataSet.admissionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.hospitalDataSet.bedlocRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.hospitalDataSet.doctorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.hospitalDataSet.inventoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.hospitalDataSet.logininfoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HM_System.hospitalDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HM_System.hospitalDataSetTableAdapters.admissionTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.hospitalDataSetTableAdapters.bedlocTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.hospitalDataSetTableAdapters.doctorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.hospitalDataSetTableAdapters.inventoryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HM_System.hospitalDataSetTableAdapters.logininfoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HM_System.hospitalDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(HM_System.hospitalDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HM_System.hospitalDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(HM_System.hospitalDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HM_System.hospitalDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(HM_System.hospitalDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HM_System.hospitalDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HM_System.hospitalDataSetTableAdapters.TableAdapterManager.UpdateAll(HM_System.hospitalDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HM_System.hospitalDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HM_System.hospitalDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HM_System.hospitalDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
